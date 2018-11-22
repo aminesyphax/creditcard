@@ -1,0 +1,112 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .credit_card {
+    background-image: url(https://scontent.ftun1-1.fna.fbcdn.net/v/t1.15752-9/45452582_2389493377807503_2686506935615750144_n.jpg?_nc_cat=104&_nc_ht=scontent.ftun1-1.fna&oh=fcd8c38063beed9bdc1164c77c8d6b6a&oe=5C6EEB92);
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  
+  .body {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px 10px;
+  }
+  
+  #credit {
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+    padding-right: 20px;
+  }
+  
+  #type {
+    width: 70px;
+    height: 80px;
+    padding-top: 20%;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+  
+  .details img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  #card_number {
+    display: inherit;
+    word-spacing: 15px;
+    color: #e7ee16;
+    padding-top: 10px;
+    font-size: 26px;
+  }
+  
+  #cvc {
+    display: inherit;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+  }
+  
+  #card-holder {
+    display: inherit;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 520;
+    color: white;
+  }
+  
+  .CVC-Experation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+  
+  .Experation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+    width: 120px;
+  }
+  
+  #valid {
+    display: inherit;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  
+  #valid span {
+    font-size: 10px;
+  }
+  
+  #date {
+    display: inherit;
+    flex-direction: column;
+  }
+  
+  #my {
+    font-size: 10px;
+  }
+  
+  #expd {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
